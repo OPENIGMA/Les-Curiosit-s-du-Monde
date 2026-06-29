@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les Curiosités du Monde - Site officiel d'Arthur Delmas</title>
+    <style>
+        body { 
+            background: #f5f5dc; 
+            font-family: 'Times New Roman', serif; 
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header { 
+            text-align: center; 
+            border-bottom: 3px double #8b4513; 
+            padding-bottom: 20px;
+        }
+        .header h1 { color: #8b4513; font-size: 32px; }
+        .counter { 
+            background: black; 
+            color: lime; 
+            font-family: 'Courier New', monospace;
+            padding: 5px 10px;
+            display: inline-block;
+            border: 2px inset gray;
+        }
+        .nav { 
+            background: #8b4513; 
+            padding: 10px;
+            text-align: center;
+        }
+        .nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav a:hover { text-decoration: underline; }
+        .content { 
+            background: white; 
+            padding: 20px;
+            border: 1px solid #8b4513;
+            margin-top: 20px;
+        }
+        .blink { animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+        .footer { 
+            text-align: center; 
+            font-size: 12px;
+            margin-top: 30px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌍 Les Curiosités du Monde 🌍</h1>
+        <p><em>Le carnet de voyage numérique d'Arthur Delmas</em></p>
+        <p>Visiteurs : <span class="counter">00004217</span></p>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="collection.html">Ma Collection</a>
+        <a href="voyages.html">Voyages</a>
+        <a href="contact.html">Contact</a>
+        <!-- Lien mort vers une page supprimée -->
+        <a href="journal_secret.html" style="color: #ffcccc;">Journal Intime</a>
+    </div>
+
+    <div class="content">
+        <h2>Bienvenue sur mon site !</h2>
+        <p>
+            Bonjour cher visiteur, je suis Arthur Delmas, collectionneur passionné 
+            d'objets insolites depuis plus de 30 ans. Ce site est mon journal de bord 
+            numérique où je partage mes découvertes à travers le monde.
+        </p>
+        <p>
+            <span class="blink">🆕</span> <strong>Dernière mise à jour :</strong> 14 mars 2010
+        </p>
+        <p>
+            <em>"Chaque objet a une histoire. Chaque histoire cache un secret."</em>
+        </p>
+        
+        <h3>📰 Actualités</h3>
+        <ul>
+            <li><strong>14/03/2010 :</strong> Retour de mon dernier voyage. J'ai trouvé quelque chose d'extraordinaire...</li>
+            <li><strong>22/02/2010 :</strong> Nouvelle acquisition : un astrolabe persan du XVIIe siècle</li>
+            <li><strong>05/01/2010 :</strong> Le site atteint les 4000 visiteurs ! Merci à tous</li>
+        </ul>
+
+        <p style="font-size: 11px; color: #999;">
+            Site optimisé pour Internet Explorer 6 - Résolution 800x600<br>
+            © 1998-2010 Les Curiosités du Monde - Tous droits réservés
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Meilleur visionné avec <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Internet_Explorer_6_Logo.png/20px-Internet_Explorer_6_Logo.png" alt="IE6"> Internet Explorer 6</p>
+    </div>
+</body>
+</html>
